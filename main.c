@@ -166,7 +166,7 @@ void eyes_sidemoving_anim()
 
     for (i = 0; i < 4; i++)
     {
-        delay(delay_num / 2);
+        delay(delay_num + delay_num / 1.5f);
         system("cls");
         print_colored_text(start_row - 2, center_col, color, eyebrows);
 
