@@ -162,13 +162,13 @@ void eyes_sidemoving_anim()
     int i;
     int j;
 
-    int side_moving[3] = {-2, 0, 2};
+    int side_moving[4] = {-2, 0, 2, 0};
 
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 4; i++)
     {
         delay(delay_num / 2);
         system("cls");
-        print_colored_text(start_row - 2, center_col + side_moving[i], color, eyebrows);
+        print_colored_text(start_row - 2, center_col, color, eyebrows);
 
         for (j = 0; j < 7; j++)
         {
